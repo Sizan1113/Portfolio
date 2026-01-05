@@ -1,0 +1,22 @@
+.Menu{
+    list-style: none;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    border: 1px solid;
+    height:40px;
+    align-content: center;
+}
+Header
+{
+    display:grid;
+}
+nav{
+    display:grid;
+    grid-template-columns: auto auto;
+    height: 100px;
+    width:100%;
+}
+.logo{
+    display:grid;
+    border:1px saddlebrown;
+}
