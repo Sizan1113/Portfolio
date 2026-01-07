@@ -1,20 +1,51 @@
-.Menu{
-    list-style: none;
-    display:grid;
-    grid-template-columns: auto auto auto auto auto;
-    border: 1px solid;
-    height:40px;
-    align-content: center;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+    line-height: 1.6;
+     color:white;
+
 }
 Header
 {
     display:grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    background-color: aliceblue;
 }
-nav{
+.logo{
+    font-size:1.5 rem;
+    color:blue
+}
+nav ul{
     display:grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto auto auto;
     height: 100px;
     width:100%;
+    list-style: none;
+}
+.hero{
+    max-width: 1100px;
+    margin:3 rem auto;
+    padding:2rem;
+    display:grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    gap:2rem;
+}
+.hero-image{
+    display: grid;
+    place-items: center;
+}
+.hero-imgage img{
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    border:1 px solid
 }
 .logo{
     display:grid;
