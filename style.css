@@ -13,13 +13,17 @@ body{
 Header
 {
     display:grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto 1fr;
     align-items: center;
+    padding:16px 32px;
     background-color: aliceblue;
 }
 .brand{
     width:100%;
     
+}
+.brand h3{
+    color:cadetblue;
 }
 nav{
     display:grid;
@@ -30,19 +34,23 @@ nav{
 nav ul{
     display:grid;
     grid-template-columns: auto auto auto auto auto;
-    height: 100px;
-    width:100%;
     list-style: none;
+    justify-content: end;
+    column-gap: 16px;;
+}
+nav a:hover,
+nav a:active{
+    color:#ff4d2d;
 }
 
 .hero{
     max-width: 1100px;
-    margin:3 rem auto;
-    padding:2rem;
+    margin:48px auto;
+    padding:32px;
     display:grid;
     grid-template-columns: 40% 60%;
     align-items: center;
-    gap:2rem;
+    gap:48px;
 }
 .hero-image{
     display: grid;
@@ -58,7 +66,10 @@ nav ul{
     background-color: aqua;
     height:300px
 }
-.logo{
+footer{
     display:grid;
-    border:1px saddlebrown;
+    place-items:center;
+    background-color: #111;
+    color:white;
+    padding :16px;
 }
