@@ -5,9 +5,9 @@
 }
 body{
     font-family:Arial, Helvetica, sans-serif;
-    background-color: aquamarine;
+    background-color: #f5f9ff;
     line-height: 1.6;
-     color:black;
+     color:darkcyan;
 
 }
 Header
@@ -16,19 +16,20 @@ Header
     grid-template-columns: auto 1fr;
     align-items: center;
     padding:16px 32px;
-    background-color: aliceblue;
+    background-color: rgb(254, 255, 255);
+    border-bottom: 1px solid beige;
 }
 .brand{
     width:100%;
     
 }
 .brand h3{
-    color:cadetblue;
+    color:rgb(27, 61, 255);
 }
 nav{
     display:grid;
-    grid-template-columns: auto;
-    background-color: gray;
+    /* grid-template-columns: auto;
+    background-color: gray; */
     align-items: center;
 }
 nav ul{
@@ -38,9 +39,19 @@ nav ul{
     justify-content: end;
     column-gap: 16px;;
 }
+nav a{
+    text-decoration:none;
+    color:#222e49;
+    font-weight:500;
+
+}
 nav a:hover,
 nav a:active{
-    color:#ff4d2d;
+    color:#cc2103;
+}
+summary::-webkit-details-marker{
+    display:none
+
 }
 
 .hero{
@@ -72,4 +83,33 @@ footer{
     background-color: #111;
     color:white;
     padding :16px;
+}
+.projects,.contact,.video,.report{
+    max-width: 1100px;
+    margin:48px autp;
+    padding:32px;
+}
+.project-grid{
+    display:grid;
+    grid-template-columns: auto auto;
+    gap:24px;
+}
+.card{
+    background:white;
+    padding:16px;
+    text-align: center;
+    box-shadow:0 10px 20px rgba(0,0,0,0.1);
+
+}
+.contact form{
+    display:grid;
+    gap:16px;
+}
+input,textarea{
+    padding:10px;
+    border:1px solid black;
+}
+iframe{
+    display:block;
+    margin:auto;
 }

@@ -4,25 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-         <section class="logo">
-        Sizan'Portfolio</section>   
+        <div class="brand">
+            <h3>Sizan's Portfolio</h3>
+        </div>
+         <details class="menu">
+            <summary class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </summary>
         <nav>
-           
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="Project.html">Projects</a></li>
-                    <li><a href="Video.html">Video_demo</a></li>
-                    <li><a href="Report.html">SiteReport</a></li>
-                    <li><a href="Contact..html">Contact</a></li>
-                </ul>
-            
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Project.html">Projects</a></li>
+                <li><a href="Video.html">Video_demo</a></li>
+                <li><a href="Report.html">SiteReport</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
         </nav>
-    </header>
+    </header>  
    
-    <main></main>
+    <main class="contact">
+        <h2>Contact me</h2>
+        <form action="mailto:sizanraut11@gmail.com" method="post">
+            <input type="text" placeholder="Your name" required>
+            <input type="email" placeholder="Your email"required>
+            <textarea placeholder="Your message"></textarea>
+            <input type="button">Send
+        </form>
+    </main>
     <footer>
     <p>© 2026 Bhuwaneshwor.All rights reserved</p>
     </footer>
