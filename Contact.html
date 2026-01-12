@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div class="brand">
             <h3>Sizan's Portfolio</h3>
         </div>
-         <details class="menu">
-            <summary class="menu-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-            </summary>
-        <nav>
+        <nav class="desktop-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Project.html">Projects</a></li>
@@ -26,20 +22,57 @@
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
-    </header>  
-   
-    <main class="contact">
+        <!-- Mobile Hamburger -->
+        <details class="mobile-menu">
+            <summary class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </summary>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Project.html">Projects</a></li>
+                    <li><a href="Video.html">Video_demo</a></li>
+                    <li><a href="Report.html">SiteReport</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </details>
+    </header>
+    <div class="contact-title">
         <h2>Contact me</h2>
-        <form action="mailto:sizanraut11@gmail.com" method="post">
-            <input type="text" placeholder="Your name" required>
-            <input type="email" placeholder="Your email"required>
-            <textarea placeholder="Your message"></textarea>
-            <input type="button">Send
-        </form>
+        <p>Feel free to reach out for collaboration or queries</p>
+    </div>
+    <main class="contact">
+        <div class="page-title">
+
+            <h2>Get in Touch</h2>
+            <p>
+                I am open to internships, freelance work, and collaborations.
+                Feel free to send me a message.
+            </p>
+
+            <ul>
+                <li><strong>Email:</strong> sizanraut11@gmail.com</li>
+                <li><strong>Location:</strong> Nepal</li>
+                <li><strong>Role:</strong> CS Student / Python Developer</li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <form class="contact-form">
+                <input type="text" placeholder="Your name" required>
+                <input type="email" placeholder="Your email" required>
+                <textarea placeholder="Your message"></textarea>
+                <button type="Submit">Send</button>
+            </form>
+        </div>
     </main>
     <footer>
-    <p>© 2026 Bhuwaneshwor.All rights reserved</p>
+        <p>© 2026 Bhuwaneshwor.All rights reserved</p>
     </footer>
-    
+
 </body>
+
 </html>

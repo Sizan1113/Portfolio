@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header>
+    <header>
         <div class="brand">
             <h3>Sizan's Portfolio</h3>
         </div>
-         <details class="menu">
-            <summary class="menu-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-            </summary>
-        <nav>
+        <nav class="desktop-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Project.html">Projects</a></li>
@@ -26,20 +22,38 @@
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
+        <!-- Mobile Hamburger -->
+        <details class="mobile-menu">
+            <summary class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </summary>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Project.html">Projects</a></li>
+                    <li><a href="Video.html">Video_demo</a></li>
+                    <li><a href="Report.html">SiteReport</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </details>
     </header>
-    
-    
+
+
     <main class="video">
         <h2>Video Demonstration</h2>
-        <iframe width="560" height="315"
-        src="link to the video">
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=MeO6ffzU6II">
         </iframe>
-
+    
+    <div class="space">link to the video:</div>
     </main>
     <footer>
-    <p>© 2026 Bhuwaneshwor.All rights reserved</p>
+        <p>© 2026 Bhuwaneshwor.All rights reserved</p>
     </footer>
 
-    
+
 </body>
+
 </html>

@@ -1,24 +1,19 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-     <header>
+    <header>
         <div class="brand">
             <h3>Sizan's Portfolio</h3>
         </div>
-         <details class="menu">
-            <summary class="menu-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-            </summary>
-        <nav>
+        <nav class="desktop-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Project.html">Projects</a></li>
@@ -27,27 +22,59 @@
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
+        <!-- Mobile Hamburger -->
+        <details class="mobile-menu">
+            <summary class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </summary>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Project.html">Projects</a></li>
+                    <li><a href="Video.html">Video_demo</a></li>
+                    <li><a href="Report.html">SiteReport</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </details>
     </header>
     <main class="Projects"></main>
     <h2>My Projects</h2>
-    <section class="project-grid">
-    <div class="card">
-        <img src="image/placeholder.png" alt="placeholder">
-        <p>project</p>
+
+    <div class="project-grid">
+        
+        <div class="card">
+            <img src="images/JavaP.png" alt="placeholder">
+            <a href="https://github.com/Sizan1113/Project">Java Project</a>
+        </div>
+        <div class="card">
+            <img src="images/DataV.png" alt="placeholder">
+            <a href="https://github.com/Sizan1113/DataScience">Data Operations.</a>
+        </div>
+        <div class="card">
+            <img src="images/PythonP.png" alt="placeholder">
+            <a href="https://github.com/Sizan1113/week1">Python Project</a>
+        </div>
+        <div class="card">
+            <img src="images/ccna.png" alt="placeholder">
+            <a href="">Networking Project</a>
+        </div>
+        <div class="card">
+            <img src="image/placeholder.png" alt="placeholder">
+            <p>project</p>
+        </div>
+        <div class="card">
+            <img src="image/placeholder.png" alt="placeholder">
+            <p>project</p>
+        </div>
     </div>
-     <div class="card">
-        <img src="image/placeholder.png" alt="placeholder">
-        <p>project</p>
-    </div>
-     <div class="card">
-        <img src="image/placeholder.png" alt="placeholder">
-        <p>project</p>
-    </div>
-     <div class="card">
-        <img src="image/placeholder.png" alt="placeholder">
-        <p>project</p>
-    </div>
-</section> 
-<footer><p>© 2026 Bhuwaneshwor.All rights reserved<p></footer>
+    <div class="space"></div>
+    <footer>
+        <p>© 2026 Bhuwaneshwor.All rights reserved
+        <p>
+    </footer>
 </body>
+
 </html>

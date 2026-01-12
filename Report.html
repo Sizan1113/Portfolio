@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Site-Report</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div class="brand">
             <h3>Sizan's Portfolio</h3>
         </div>
-         <details class="menu">
-            <summary class="menu-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-            </summary>
-        <nav>
+        <nav class="desktop-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Project.html">Projects</a></li>
@@ -26,16 +22,129 @@
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
+        <!-- Mobile Hamburger -->
+        <details class="mobile-menu">
+            <summary class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </summary>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Project.html">Projects</a></li>
+                    <li><a href="Video.html">Video_demo</a></li>
+                    <li><a href="Report.html">SiteReport</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </details>
     </header>
-   
-    <main class="report">
-        <p></p>
-        <p></p>
-        <p></p>
-    </main>
+
+<main class="report">
+
+    <!-- PAGE TITLE -->
+    <section class="report-header">
+        <h1>Site Report</h1>
+        <p>A reflective discussion of my web development journey</p>
+    </section>
+
+    <!-- REPORT CONTENT -->
+    <section class="report-content">
+
+        <h2>Introduction & Learning Experience</h2>
+        <p>
+            This portfolio website represents my learning journey throughout this module
+            where I explored the fundamentals of web development using HTML and CSS.
+            At the beginning, understanding the structure of HTML documents and how CSS
+            controls layout and styling felt overwhelming. However, through consistent
+            practice and experimentation, I gradually became comfortable with semantic
+            HTML, CSS Grid, and responsive design principles.
+        </p>
+
+        <p>
+            One of the biggest challenges I faced was debugging layout issues, especially
+            when elements did not align as expected. Learning to use browser developer
+            tools helped me identify problems such as incorrect grid placement, missing
+            classes, or conflicting styles. Although frustrating at times, these challenges
+            improved my problem-solving skills and patience.
+        </p>
+
+        <h2>Reflective Discussion of Module Experience</h2>
+        <p>
+            This module helped me understand not only how websites are built, but also
+            why good design decisions matter. I learned that accessibility, readability,
+            and responsiveness are just as important as visual appeal. The ups included
+            successfully creating a responsive navigation bar and clean layouts using
+            CSS Grid, while the downs involved trial-and-error with positioning and
+            media queries.
+        </p>
+
+        <h2>Site Development & UI Design</h2>
+        <p>
+            Over the term, the site evolved from a simple static page into a structured
+            multi-page portfolio. I focused on a consistent user interface across all pages,
+            using the same header, navigation, and color theme. CSS Grid was used to
+            organize content cleanly, making the site easier to scale and maintain.
+        </p>
+
+        <h2>Design Decisions</h2>
+        <p>
+            I chose a blue and white color palette to create a professional and calm visual
+            experience. Blue represents trust and reliability, which aligns with my goal
+            of presenting myself professionally. Sans-serif fonts were selected for better
+            readability. Design inspiration was taken from modern portfolio websites such
+            as <a href="https://dribbble.com" target="_blank">Dribbble</a> and
+            <a href="https://behance.net" target="_blank">Behance</a>.
+        </p>
+
+    </section>
+
+    <!-- WIREFRAMES -->
+    <section class="report-section">
+        <h2>Wireframes</h2>
+        <div class="grid-4">
+            <img src="images/Homepage.png" alt="Wireframe 1">Homepage-Wireframe
+            <img src="images/Project.png" alt="Wireframe 2">Project-wireframe
+            <img src="images/contact.png" alt="Wireframe 3">ContactPage-Wireframe
+            <img src="images/videodemo.png" alt="Wireframe 4">Video-Page-Wireframe
+            <img src="images/Report.png" alt="Wireframe 5">Report-Wireframe
+        </div>
+        <p class="note">Figure: Initial wireframe sketches for the site layout.</p>
+    </section>
+
+    <!-- VALIDATION -->
+    <section class="report-section">
+        <h2>Validation Reports</h2>
+        <div class="grid-3">
+            <img src="images/validHome.png" alt="HTML Validation 1">
+            <img src="images/validProject.png" alt="HTML Validation 2">
+            <img src="images/Valid contact.png" alt="HTML Validation 3">
+            <img src="images/VideoValida.png" alt="HTML Validation 4">
+            <img src="images/ValidSiteReport.png" alt="HTML Validation 5">
+            <img src="images/CssValid.png" alt="CSS Validation 1">
+        </div>
+        <p class="note">
+            Screenshots above show successful HTML and CSS validation using W3C tools.
+        </p>
+    </section>
+
+    <!-- VIDEO DEMO -->
+    <section class="report-section">
+        <h2>Video Demonstration</h2>
+        <p>
+            A full video walkthrough of this portfolio website can be viewed at:
+        </p>
+        <a href="https://www.youtube.com/your-video-link" target="_blank" class="video-link">
+            https://www.youtube.com/your-video-link
+        </a>
+    </section>
+
+</main>
     <footer>
-    <p>© 2026 Bhuwaneshwor.All rights reserved</p>
+        <p>© 2026 Bhuwaneshwor.All rights reserved</p>
     </footer>
-    
+
 </body>
+
 </html>

@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Sizan Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div class="brand">
             <h3>Sizan's Portfolio</h3>
         </div>
-         <details class="menu">
-            <summary class="menu-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-            </summary>
-        <nav>
+        <nav class="desktop-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Project.html">Projects</a></li>
@@ -26,28 +22,54 @@
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
+        <!-- Mobile Hamburger -->
+        <details class="mobile-menu">
+            <summary class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </summary>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Project.html">Projects</a></li>
+                    <li><a href="Video.html">Video_demo</a></li>
+                    <li><a href="Report.html">SiteReport</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </details>
     </header>
     <main>
-        <section class="hero"></section>
-        <section class="hero-image">
-            <img src="">
+        <div class="hero">
 
-        </section>
-        <section class="about">
-            <h2>Bhuwaneshwor Raut</h2>
-            <h2>I am a CS student</h2>
+            <div class="hero-image">
+                <img src="profile.jpeg" alt="profile picture">
 
-            <p>
-                I am a Cs Student,passionate about building clean and responsive and accessible websites using modern Html and CSS.
-            </p>
-            <div class="conatct-button">
-                <a href="Contact.html" class="btn">Hire me</a>
+
             </div>
-            </section>
-        </main>
-<footer>
-    <p>© 2026 Bhuwaneshwor.All rights reserved</p>
-</footer>
+
+            <div class="about">
+                <h2>Bhuwaneshwor Raut</h2>
+                <h2>
+                    <span> CS student</span>
+                </h2>
+
+                <p>
+                    I am a Cs Student,passionate about building clean and responsive and accessible websites using
+                    modern Html and CSS.
+                </p>
+                <div class="contact-button">
+                    <a href="Contact.html" class="btn">Hire me</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <p>© 2026 Bhuwaneshwor.All rights reserved</p>
+    </footer>
 
 </body>
+
 </html>
